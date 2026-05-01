@@ -1,3 +1,5 @@
+"""Configuracion de la base de datos con PostgresSQL y SQLAlchemy."""
+
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
