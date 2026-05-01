@@ -3,9 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-
-# ── Entrada ────────────────────────────────────────────────────────────────
-
+# Entradas 
 class NoteCreate(BaseModel):
     title:     str            = Field(..., min_length=1, max_length=200,  description="Título requerido")
     content:   Optional[str]  = Field(None, max_length=1000,             description="Contenido opcional")
@@ -18,7 +16,7 @@ class NoteUpdate(BaseModel):
     completed: Optional[bool] = None
 
 
-# ── Salida ─────────────────────────────────────────────────────────────────
+# Salidas
 
 class NoteResponse(BaseModel):
     id:         int
