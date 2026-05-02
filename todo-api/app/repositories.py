@@ -1,7 +1,7 @@
+# Repositorio de las logicas de acceso a datos, para mantener el código organizado y separado de las rutas y modelos.
+
 from typing import List, Optional
-
 from sqlalchemy.orm import Session
-
 from app.models import Note
 from app.schemas import NoteCreate, NoteUpdate
 

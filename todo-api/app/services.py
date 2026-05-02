@@ -1,8 +1,8 @@
-from typing import List
+# servicios de la app, que contienen la lógica de negocio y validaciones. Se encargan de interactuar con los repositorios para acceder a los datos, y pueden lanzar excepciones HTTP para manejar errores de forma centralizada en las rutas.
 
+from typing import List
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
-
 from app import repositories
 from app.models import Note
 from app.schemas import NoteCreate, NoteUpdate
