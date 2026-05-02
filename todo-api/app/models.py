@@ -5,6 +5,8 @@ from sqlalchemy import Boolean, Column, DateTime, Integer, String
 from app.database import Base
 
 
+"""Definicion de los modelos con SLQAlchemy."""
+
 def _now():
     return datetime.now(timezone.utc)
 
