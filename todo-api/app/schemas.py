@@ -1,4 +1,4 @@
-# Esquemas con pydantic para validacion de datos de entrada y salida
+# Esquemas de Pydantic para validación de datos de entrada y salida.
 
 from datetime import datetime
 from typing import Optional

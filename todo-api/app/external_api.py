@@ -1,4 +1,4 @@
-# Cliente para Api Externa jSONPlaceholder
+# Cliente para Api Externa jSONPlaceholder que se usarA para obtener usuarios y posts de la api.
 import httpx 
 from fastapi import HTTPException, status
 
